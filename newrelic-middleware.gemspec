@@ -4,9 +4,9 @@ require File.expand_path('../lib/newrelic-middleware/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["twinturbo"]
   gem.email         = ["me@broadcastingadam.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Track time spent your middleware stack with New Relic}
+  gem.summary       = %q{}
+  gem.homepage      = "https://github.com/twinturbo/newrelic-middleware"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
