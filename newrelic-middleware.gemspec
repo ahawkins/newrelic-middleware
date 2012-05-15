@@ -15,6 +15,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = NewRelicMiddleware::VERSION
 
+  gem.add_dependency "newrelic_rpm"
+
   gem.add_development_dependency "rails"
   gem.add_development_dependency "rack-test"
 end

@@ -2,8 +2,6 @@
 
 Use this middleware to see how long your app is spending in middleware. 
 
-It does not track per middleware.
-
 ## Installation
 
 Add this line to your application's Gemfile:

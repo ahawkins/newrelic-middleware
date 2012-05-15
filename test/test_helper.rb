@@ -1,6 +1,3 @@
-require 'simplecov'
-SimpleCov.start
-
 require 'newrelic-middleware'
 
 require 'minitest/unit'
